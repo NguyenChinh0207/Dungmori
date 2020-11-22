@@ -1,0 +1,139 @@
+.center_group{
+    display: flex;
+    flex-direction: column;
+}
+.all-courses-title{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 100;
+}
+.online b:hover{
+    color: var(--hover-color);
+}
+.all-courses-container{
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.course_item{
+    width: 185px;
+    height: 300px;
+    float: left;
+    background: url(images/khung.png);
+    background-size: 100% 100%;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+.course-name{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 36px;
+    line-height: .9;
+    font-weight: 100;
+    color: #fff;
+    margin: 12px 0 15px;
+}
+.course-name span{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.course-info{
+    width: 100%;
+    float: left;
+    padding: 1px 15px 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FEFEFE;
+    margin-bottom: 3px;
+}
+.course-info span{
+    float: right;
+}
+.buy-info{
+    text-align: center;
+}
+.buy-btn{
+    padding: 8px 20px;
+    background-color: #fff;
+    color: #588d3f;
+    border-radius: 20px;
+    margin-top: 18px;
+}
+.buy-btn:hover{
+    background-color: #ddd;
+}
+
+
+/*  khoa combo */
+
+.combo_list-container{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.combo_item{
+    width: 100%;
+    margin: 0;
+}
+.combo_name-item{
+    padding: 30px;
+    height: 140px;
+    width: 120px;
+    float: left;
+    background: #e6e6e6;
+    text-align: center;
+}
+.combo_detail-item{
+    height: 140px;
+    width: calc(100% - 120px);
+    float: left;
+    background: #f8f8f8;
+    padding-top: 10px;
+}
+.info_item{
+    color: #404040;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+.info_item span{
+    float: initial;
+}
+.btn{
+    width: 120px;
+    float: right;
+    text-align: center;
+    margin-right: 15px;
+    padding: 8px 0px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+.main_right{
+    width: 280px;
+    margin-top: 35px;
+}
+.course_info-right{
+    margin-top: 62px;
+    width: 100%;
+    
+}
+.price{
+    width: 100%;
+    text-align: center;
+    color: #e74c3c;
+    font-size: 30px;
+    font-weight: 600;
+}
+.price-yen{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
